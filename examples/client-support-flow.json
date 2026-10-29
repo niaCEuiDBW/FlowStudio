@@ -1,0 +1,282 @@
+[
+  {
+    "$type": "ellipse",
+    "Id": "76014701-bc84-5d08-ba7e-da689b6ea472",
+    "X": 340,
+    "Y": 25,
+    "Width": 170,
+    "Height": 65,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Получить обращение",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "rectangle",
+    "Id": "02aa59e7-e2b4-59b8-849f-549ca7e06edf",
+    "X": 330,
+    "Y": 125,
+    "Width": 190,
+    "Height": 78,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Записать контакты",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "rhombus",
+    "Id": "50e44544-fae2-5033-a7d2-e8b0c54d0f0d",
+    "X": 335,
+    "Y": 240,
+    "Width": 180,
+    "Height": 98,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFFFFFE0",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Данные полные?",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "terminator",
+    "Id": "ddcf8862-30d2-5e4b-ac0a-8d41ef3b677c",
+    "X": 65,
+    "Y": 254,
+    "Width": 180,
+    "Height": 70,
+    "StrokeColor": "FF000000",
+    "FillColor": "FF90EE90",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Запросить уточнение",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "rectangle",
+    "Id": "1b41b86b-8713-5ef4-a2b5-bc8ae26d11cc",
+    "X": 330,
+    "Y": 405,
+    "Width": 190,
+    "Height": 78,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Определить категорию",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "rhombus",
+    "Id": "ccd7669f-bf71-5bc1-8b25-b49b28d4d48c",
+    "X": 335,
+    "Y": 520,
+    "Width": 180,
+    "Height": 98,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFFFFFE0",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Есть специалист?",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "terminator",
+    "Id": "f57cb36d-dfd5-5a41-a726-c0519b1d0c2d",
+    "X": 60,
+    "Y": 555,
+    "Width": 190,
+    "Height": 72,
+    "StrokeColor": "FF000000",
+    "FillColor": "FF90EE90",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Поставить в очередь",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "terminator",
+    "Id": "05eab6b0-ea12-5903-ac23-11c3a4bf0076",
+    "X": 600,
+    "Y": 555,
+    "Width": 200,
+    "Height": 72,
+    "StrokeColor": "FF000000",
+    "FillColor": "FF90EE90",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "Назначить специалиста",
+    "FontSize": 10.0
+  },
+  {
+    "$type": "connection-line",
+    "Id": "9c9da6e5-4e3e-572d-a8b4-cebf3536966f",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "76014701-bc84-5d08-ba7e-da689b6ea472",
+    "TargetShapeId": "02aa59e7-e2b4-59b8-849f-549ca7e06edf",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "8252d649-e276-5fa4-a4c0-abe16112f879",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "02aa59e7-e2b4-59b8-849f-549ca7e06edf",
+    "TargetShapeId": "50e44544-fae2-5033-a7d2-e8b0c54d0f0d",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "98d925fb-e079-5088-b19b-ac97f6f36fdd",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "50e44544-fae2-5033-a7d2-e8b0c54d0f0d",
+    "TargetShapeId": "ddcf8862-30d2-5e4b-ac0a-8d41ef3b677c",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "c2d1eba4-6cf8-5f97-aa00-bbc93b7a3ae4",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "50e44544-fae2-5033-a7d2-e8b0c54d0f0d",
+    "TargetShapeId": "1b41b86b-8713-5ef4-a2b5-bc8ae26d11cc",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "9907b16a-bd2a-5183-9807-939b580c3efc",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "1b41b86b-8713-5ef4-a2b5-bc8ae26d11cc",
+    "TargetShapeId": "ccd7669f-bf71-5bc1-8b25-b49b28d4d48c",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "69828f4c-0434-5595-ba9f-c66900eb517a",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "ccd7669f-bf71-5bc1-8b25-b49b28d4d48c",
+    "TargetShapeId": "f57cb36d-dfd5-5a41-a726-c0519b1d0c2d",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  },
+  {
+    "$type": "connection-line",
+    "Id": "01be0e35-2044-51bf-9ded-4d02bcdd3f43",
+    "X": 0,
+    "Y": 0,
+    "Width": 140,
+    "Height": 80,
+    "StrokeColor": "FF000000",
+    "FillColor": "FFADD8E6",
+    "TextColor": "FF000000",
+    "StrokeWidth": 2.0,
+    "Text": "",
+    "FontSize": 10.0,
+    "SourceShapeId": "ccd7669f-bf71-5bc1-8b25-b49b28d4d48c",
+    "TargetShapeId": "05eab6b0-ea12-5903-ac23-11c3a4bf0076",
+    "StartPoint": {
+      "X": 0,
+      "Y": 0
+    },
+    "EndPoint": {
+      "X": 0,
+      "Y": 0
+    }
+  }
+]
